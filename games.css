@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    font-family: tahoma;
+    background-color:black;
+    color:whitesmoke;
+    text-decoration: none;
+}
+
+.start{
+    margin: auto;
+    width: 220px;
+    display:block;
+    text-decoration: none;
+    border: 4px solid lightgray;
+    padding: 20px;
+    border-radius: 10px;
+    background-color:lightgray;
+}
+.start a{
+    font-size: 18px;
+    padding: 20px;
+    margin-top: 20px;
+    background-color:lightgray;
+    color:black;
+    font-family: 'Roboto', Impact, sans-serif;
+}
+.src{
+    width: 60%;
+    display:block;
+    margin:auto;
+    border: 1px solid yellow;
+}
+.first{
+    display:block;
+    margin-left: 10px;
+}
+.second{
+    display:block;
+    margin-left: 10px;
+}
+.btn{
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+    border: 3px solid white;
+}
+.btn:hover{
+    border: 3px solid brown;
+    background-color:lightgrey;
+    color: black;   
+    font-weight: bold;
+    border-radius: 50px;
+}
+.first p{
+    padding: 1px;
+}
+.head:hover{
+    background-color:whitesmoke;
+    margin-left: 20px;
+    color: black;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+}
+.head{
+    background-color: rgb(235, 235, 67);
+    margin-left: 40px;
+    color: brown;
+    padding: 10px;
+    border-radius: 10px;
+}
+.fixed{
+    border-radius: 0px 50px 20px 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: fixed;
+    background-color: lightblue;
+    color: black;
+}
+#fix1{
+    margin-top: 30px;
+}
+#fix2{
+    padding: 0px;
+    margin: 0px;
+    border-radius: 0px;
+    width: 100%;
+    text-align: center;
+}
+/* #fix2{
+    margin-top: 6%;
+} */
+#moregames{
+    padding-right: 30px;
+    padding-left: 30px;
+    background-color: aquamarine;
+    color: black;
+    font-weight: bold;
+    border: 3px solid aquamarine ;
+
+}
+#moregames:hover{
+    padding-right: 50px;
+    padding-left: 50px;
+    border-radius: 0px;
+    background-color: gold;
+    color: black;
+    border: 3px solid gold;
+}
